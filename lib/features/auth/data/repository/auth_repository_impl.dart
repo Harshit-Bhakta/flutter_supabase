@@ -5,8 +5,8 @@ import 'package:blog_app/features/auth/domain/repository/auth_repository.dart';
 import 'package:fpdart/fpdart.dart';
 
 class AuthRepositoryImpl implements AuthRepository {
-  final AuthRemoteDataSources remoteDataSource;
-  const AuthRepositoryImpl(this.remoteDataSource);
+  final AuthRemoteDataSource remoteDataSource;
+   AuthRepositoryImpl(this.remoteDataSource);
   @override
   Future<Either<Faliure, String>> loginWithEmailPassword(
       {required String email, required String password}) {
