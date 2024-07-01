@@ -1,4 +1,4 @@
-# blog_app
+# flutter_supabase
 
 A new Flutter project.
 
